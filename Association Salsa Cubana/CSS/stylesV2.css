@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Saira Condensed', sans-serif; 
+    font-size: 18px;
+}
+
+h2, h3, h4, .nav-item, #transition, footer, p {
+    text-align: center;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color:cornsilk;
+}
+
+/*********HEADER******/
+
+header {
+    background-image: url(Images/ardian-lumi-6Woj_wozqmA-unsplash.jpg);    
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5em;
+    text-decoration-line: #E59627;
+    font-weight: inherit;
+    color:#ffff;
+}
+
+.header {
+    line-height: 70px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    float: left;
+    color:whitesmoke;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color:whitesmoke;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: teal;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+}
+
+.inner-banner .btn-custom {
+    border-radius: 3px 3px #05283F;
+    background-color: chocolate;
+    text-transform: inherit;
+    font-weight: bold;
+    color:#ffff;
+    letter-spacing: 1.2px;
+    font-size: 22px;
+    margin-top: 30px;
+} 
+
+.inner-banner .btn-custom:hover {
+    background-color: #10660E;
+}
+
+.Icon {
+    position: absolute;
+    background-color: transparent;
+    color:white;
+    padding-top: 50px;
+}
+
+.Icon:hover {
+    background-color:transparent;
+}
+
+/*MAIN SECTION GENERAL SETTINGS*/
+
+.main-section {
+    background-color: #FAECB9;
+    width:100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+
+}
+
+
+/***PRESENTATION BLOCK*/
+
+.programme {
+    margin-bottom: 40px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.p {
+    text-align: justify;
+    line-height: 1.8px;
+}
+
+/*****3 CONTENT BLOCKS*/
+
+.card {
+    background-color: #FAECB9;
+    border-color: transparent;
+}
+
+.card-body {
+    margin-bottom: 80px;
+}
+
+.fit-picture {
+   object-position: absolute;
+}
+
+.card-body .btn-custom {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    align-self: center;
+    text-align: center;
+    width: 25%;
+    background-color: chocolate;
+    text-transform: inherit;
+    font-weight: bold;
+    color:#ffff;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.card-body .btn-custom:hover {
+    background-color: #10660E;
+}
+
+/**CONTACT PAGE*/
+
+.form-sm-8 {
+    background-color: khaki;
+    text-align: left;
+    justify-items: center;
+    font-size: bolder;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: lightcoral;
+    text-shadow: lightslategrey;
+    margin-top: 20px;
+}
+
+/**HORAIRES ET TARIFS PAGE**/
+
+.HorairesTarifs {
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.card-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.CTA {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1.5em;
+}
+
+.CTA .btn-custom:hover {
+    background-color: teal;
+    color: black;
+    font-weight: bold;
+}
+
+/*QUI SOMMES NOUS*/
+
+
+
+
+/*FOOTER*/
+
+
+.footer {
+    background-color: chocolate;
+    text-align: center;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.Asavoir {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 80px;
+    justify-content: space-around;
+}
+
+.Copyright {
+    padding-top: 390px;
+}
+
+
+    
+
+
+
+
